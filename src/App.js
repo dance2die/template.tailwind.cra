@@ -1,12 +1,18 @@
 import React from 'react'
 import logo from './logo.svg'
 
+import './App.css'
+
 function App() {
   return (
-    <div className='bg-gray-700 text-white w-screen h-screen'>
-      <header className='flex flex-col h-full text-center justify-center align-middle'>
-        <img src={logo} className='h-40' alt='logo' />
-        <p>
+    <div className='bg-pink-500 text-white w-screen h-screen'>
+      <header className='flex flex-col h-full text-center justify-center items-center'>
+        <img
+          src={logo}
+          className='App-logo w-40 h-40 bg-orange-200 rounded-full'
+          alt='logo'
+        />
+        <p className='mt-8'>
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
